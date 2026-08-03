@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 210,
+    "left": 0,
+    "width": 884,
+    "height": 1178,
+    "isRotated": true,
+    "originalWidth": 884,
+    "originalHeight": 1600
+  },
+  "imagePath": "image-targets/tejesuenos_luminance.jpg",
+  "metadata": null,
+  "name": "tejesuenos",
+  "resources": {
+    "originalImage": "tejesuenos_original.jpg",
+    "croppedImage": "tejesuenos_cropped.jpg",
+    "thumbnailImage": "tejesuenos_thumbnail.jpg",
+    "luminanceImage": "tejesuenos_luminance.jpg"
+  },
+  "created": 1785779671124,
+  "updated": 1785779671124
+}

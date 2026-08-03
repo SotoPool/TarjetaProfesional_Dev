@@ -91,39 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "b89e1638-a210-4187-bab6-b934d0d136cd": {
-      "id": "b89e1638-a210-4187-bab6-b934d0d136cd",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        0.5656635827077683,
-        0.5656635827077683,
-        0.5656635827077683
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "model.glb",
-      "order": 3.250457953729977
-    },
     "5e0260fa-8329-4bd1-be29-bbe7ed3422de": {
       "id": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
       "position": [
@@ -148,9 +115,42 @@
       "components": {},
       "name": "Image Target",
       "imageTarget": {
-        "name": "tarjeta"
+        "name": "tejesuenos"
       },
       "order": 4.751843556449502
+    },
+    "0ceb62d1-9d78-4e9a-8404-3b76355dee03": {
+      "id": "0ceb62d1-9d78-4e9a-8404-3b76355dee03",
+      "position": [
+        0.05,
+        0,
+        9.008201588343064e-17
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/animanuglb.glb"
+        },
+        "animationClip": "Dance",
+        "loop": true
+      },
+      "name": "animanuglb.glb",
+      "order": 2.2978624535969088
     }
   },
   "spaces": {
