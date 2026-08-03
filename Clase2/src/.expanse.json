@@ -151,6 +151,181 @@
       },
       "name": "animanuglb.glb",
       "order": 2.2978624535969088
+    },
+    "12f26d92-5960-4959-8a18-6262859223d4": {
+      "id": "12f26d92-5960-4959-8a18-6262859223d4",
+      "position": [
+        1.5,
+        0.25,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 1,
+        "height": 1,
+        "width": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "fe59057b-299f-4595-8525-e2c233557aad": {
+          "id": "fe59057b-299f-4595-8525-e2c233557aad",
+          "name": "Custom Component",
+          "parameters": {}
+        }
+      },
+      "name": "Box",
+      "order": 6.441551214999538
+    },
+    "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c": {
+      "id": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
+      "position": [
+        0,
+        0.5,
+        -0.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 9.238201752653673
+    },
+    "324d6d2f-9e24-4b06-871c-fd38f0ff6d98": {
+      "id": "324d6d2f-9e24-4b06-871c-fd38f0ff6d98",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.40860441829121286
+    },
+    "414083e1-7304-47b3-a6bd-1e066064acbf": {
+      "id": "414083e1-7304-47b3-a6bd-1e066064acbf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.395478091594358
+    },
+    "770680b2-86e3-4e82-b1e9-ab876190c3cd": {
+      "id": "770680b2-86e3-4e82-b1e9-ab876190c3cd",
+      "position": [
+        0,
+        0.13982787715480394,
+        -0.28955010607213105
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000532124822,
+        1.0000000532124822
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
+      "components": {},
+      "name": "Plane",
+      "order": 2.5182752476070633
     }
   },
   "spaces": {
