@@ -235,76 +235,15 @@
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center"
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Pause.png"
+        },
+        "backgroundSize": "contain"
       },
       "name": "Button",
       "order": 9.238201752653673
-    },
-    "324d6d2f-9e24-4b06-871c-fd38f0ff6d98": {
-      "id": "324d6d2f-9e24-4b06-871c-fd38f0ff6d98",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
-      "components": {},
-      "name": "Icon",
-      "ui": {
-        "width": 16,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "backgroundOpacity": 1
-      },
-      "order": 0.40860441829121286
-    },
-    "414083e1-7304-47b3-a6bd-1e066064acbf": {
-      "id": "414083e1-7304-47b3-a6bd-1e066064acbf",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
-      "components": {},
-      "name": "Text",
-      "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Button",
-        "color": "#ffffff",
-        "fontSize": 16
-      },
-      "order": 1.395478091594358
     },
     "770680b2-86e3-4e82-b1e9-ab876190c3cd": {
       "id": "770680b2-86e3-4e82-b1e9-ab876190c3cd",
