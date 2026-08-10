@@ -238,7 +238,7 @@
         "justifyContent": "center",
         "image": {
           "type": "asset",
-          "asset": "assets/Pause.png"
+          "asset": "assets/PausePlay.png"
         },
         "backgroundSize": "contain"
       },
