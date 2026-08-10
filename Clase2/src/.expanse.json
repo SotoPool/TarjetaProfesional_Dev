@@ -195,8 +195,8 @@
       "id": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
       "position": [
         0,
-        0.5,
-        -0.25
+        1.382626592696149,
+        -0.5297810236838887
       ],
       "rotation": [
         0,
@@ -212,7 +212,18 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "6e74132a-91c1-441a-96ff-dae6184e456c": {
+          "id": "6e74132a-91c1-441a-96ff-dae6184e456c",
+          "name": "PausarVideo",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "770680b2-86e3-4e82-b1e9-ab876190c3cd"
+            }
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
@@ -299,8 +310,8 @@
       "id": "770680b2-86e3-4e82-b1e9-ab876190c3cd",
       "position": [
         0,
-        0.13982787715480394,
-        -0.28955010607213105
+        -0.7427987155413451,
+        -0.009769082388242367
       ],
       "rotation": [
         0,
@@ -309,9 +320,9 @@
         1
       ],
       "scale": [
+        1.7,
         1,
-        1.0000000532124822,
-        1.0000000532124822
+        1.000000053212482
       ],
       "geometry": {
         "type": "plane",
@@ -320,12 +331,17 @@
       },
       "material": {
         "type": "basic",
-        "color": "#FFFFFF"
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/TheTapeWalkerTrailerCinematic.mp4"
+        }
       },
       "parentId": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
       "components": {},
-      "name": "Plane",
-      "order": 2.5182752476070633
+      "name": "Video",
+      "order": 2.408144970741004,
+      "videoControls": {}
     }
   },
   "spaces": {
