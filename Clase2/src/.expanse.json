@@ -117,7 +117,8 @@
       "imageTarget": {
         "name": "tejesuenos"
       },
-      "order": 4.751843556449502
+      "order": 4.751843556449502,
+      "hidden": false
     },
     "0ceb62d1-9d78-4e9a-8404-3b76355dee03": {
       "id": "0ceb62d1-9d78-4e9a-8404-3b76355dee03",
@@ -152,57 +153,18 @@
       "name": "animanuglb.glb",
       "order": 2.2978624535969088
     },
-    "12f26d92-5960-4959-8a18-6262859223d4": {
-      "id": "12f26d92-5960-4959-8a18-6262859223d4",
-      "position": [
-        1.5,
-        0.25,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "geometry": {
-        "type": "box",
-        "depth": 1,
-        "height": 1,
-        "width": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF"
-      },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "fe59057b-299f-4595-8525-e2c233557aad": {
-          "id": "fe59057b-299f-4595-8525-e2c233557aad",
-          "name": "Custom Component",
-          "parameters": {}
-        }
-      },
-      "name": "Box",
-      "order": 6.441551214999538
-    },
     "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c": {
       "id": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
       "position": [
         0,
-        1.382626592696149,
-        -0.5297810236838887
+        0.529781023683889,
+        1.3826265926961487
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         1,
@@ -211,7 +173,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
       "components": {
         "6e74132a-91c1-441a-96ff-dae6184e456c": {
           "id": "6e74132a-91c1-441a-96ff-dae6184e456c",
@@ -242,8 +204,8 @@
         },
         "backgroundSize": "contain"
       },
-      "name": "Button",
-      "order": 9.238201752653673
+      "name": "ButtonPlayPause",
+      "order": 3.662756251887707
     },
     "770680b2-86e3-4e82-b1e9-ab876190c3cd": {
       "id": "770680b2-86e3-4e82-b1e9-ab876190c3cd",
@@ -281,6 +243,226 @@
       "name": "Video",
       "order": 2.408144970741004,
       "videoControls": {}
+    },
+    "03cb0b6a-8309-4fef-ae1a-aa291086383d": {
+      "id": "03cb0b6a-8309-4fef-ae1a-aa291086383d",
+      "position": [
+        -0.8859144181011707,
+        0.2425730325367075,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#000000",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "ButtonTwitter",
+      "order": 6.697670911967109
+    },
+    "7b9689af-bf38-4b27-b4e1-a5bd793f3391": {
+      "id": "7b9689af-bf38-4b27-b4e1-a5bd793f3391",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "03cb0b6a-8309-4fef-ae1a-aa291086383d",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/iconx.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.48221021253064106
+    },
+    "4bc74cc4-ae65-4d02-87b2-7c504154da6b": {
+      "id": "4bc74cc4-ae65-4d02-87b2-7c504154da6b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "03cb0b6a-8309-4fef-ae1a-aa291086383d",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 45,
+        "height": 14,
+        "text": "X/Twitter",
+        "color": "#ffffff",
+        "fontSize": 10,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Roboto"
+        }
+      },
+      "order": 1.4668879159087882
+    },
+    "09c3036f-1433-48d4-bb90-b5a708aa1b19": {
+      "id": "09c3036f-1433-48d4-bb90-b5a708aa1b19",
+      "position": [
+        -0.31231608332018207,
+        0.23189698144064577,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ffffff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "ButtonInstagram",
+      "order": 7.978527199881444
+    },
+    "1dcf860f-1585-4ee5-9373-ed6c26155aaf": {
+      "id": "1dcf860f-1585-4ee5-9373-ed6c26155aaf",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "09c3036f-1433-48d4-bb90-b5a708aa1b19",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/instaicon.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.4656320254885931
+    },
+    "d0b1e8e2-2b66-4e3b-80a4-1b0180fcee6b": {
+      "id": "d0b1e8e2-2b66-4e3b-80a4-1b0180fcee6b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "09c3036f-1433-48d4-bb90-b5a708aa1b19",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Instagram",
+        "color": "#000000",
+        "fontSize": 10,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Roboto"
+        }
+      },
+      "order": 1.4457592294025894
     }
   },
   "spaces": {
