@@ -141,7 +141,23 @@
       "geometry": null,
       "material": null,
       "parentId": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
-      "components": {},
+      "components": {
+        "8459dd15-2cd7-4970-acae-de26cd6b5129": {
+          "id": "8459dd15-2cd7-4970-acae-de26cd6b5129",
+          "name": "AnimationToggle",
+          "parameters": {
+            "animationB": "Dance",
+            "model": {
+              "type": "entity",
+              "id": "0ceb62d1-9d78-4e9a-8404-3b76355dee03"
+            },
+            "button": {
+              "type": "entity",
+              "id": "f515fa87-2b88-4c44-b658-bc3b6a2215df"
+            }
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -599,6 +615,44 @@
         }
       },
       "order": 1.4457592294025894
+    },
+    "f515fa87-2b88-4c44-b658-bc3b6a2215df": {
+      "id": "f515fa87-2b88-4c44-b658-bc3b6a2215df",
+      "position": [
+        -0.003625451710630778,
+        0.9686685662311291,
+        0.9353712446406245
+      ],
+      "rotation": [
+        -0.13052619222005157,
+        0,
+        0,
+        0.9914448613738104
+      ],
+      "scale": [
+        2.0470919771541376,
+        6.9880157517926085,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0ceb62d1-9d78-4e9a-8404-3b76355dee03",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ffffff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "ButtonToggleAnim",
+      "order": 6.260774482854936
     }
   },
   "spaces": {
