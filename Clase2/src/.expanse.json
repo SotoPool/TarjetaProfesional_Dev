@@ -45,19 +45,19 @@
       "name": "Camera",
       "position": [
         0,
-        1.0669330443706277,
-        1.7344023975653877
+        1.066933044370628,
+        1.7344023975653875
       ],
       "rotation": [
-        0.00045869938973541204,
-        0.9682506030964702,
-        -0.2499756574197938,
-        0.0016522396114509496
+        -0.007555943960184424,
+        0.9917385675900213,
+        -0.09900952418689304,
+        -0.08120736041547195
       ],
       "scale": [
-        1.0000000000000007,
-        1,
-        1
+        1.0000000000000009,
+        0.9999999999999997,
+        0.9999999999999999
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -123,7 +123,7 @@
     "0ceb62d1-9d78-4e9a-8404-3b76355dee03": {
       "id": "0ceb62d1-9d78-4e9a-8404-3b76355dee03",
       "position": [
-        0.05,
+        0.3004939947731991,
         0,
         9.008201588343064e-17
       ],
@@ -147,7 +147,7 @@
           "type": "asset",
           "asset": "assets/animanuglb.glb"
         },
-        "animationClip": "Dance",
+        "animationClip": "Idle",
         "loop": true
       },
       "name": "animanuglb.glb",
@@ -156,9 +156,9 @@
     "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c": {
       "id": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
       "position": [
-        0,
-        0.529781023683889,
-        1.3826265926961487
+        -1,
+        0.5297810236838891,
+        1.85
       ],
       "rotation": [
         0.7071067811865475,
@@ -167,9 +167,9 @@
         0.7071067811865476
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.75,
+        0.7499999999999999,
+        0.7499999999999999
       ],
       "geometry": null,
       "material": null,
@@ -211,8 +211,8 @@
       "id": "770680b2-86e3-4e82-b1e9-ab876190c3cd",
       "position": [
         0,
-        -0.7427987155413451,
-        -0.009769082388242367
+        -0.9564978764051351,
+        0
       ],
       "rotation": [
         0,
@@ -221,9 +221,9 @@
         1
       ],
       "scale": [
-        1.7,
-        1,
-        1.000000053212482
+        2.2666666666666666,
+        1.3333333333333335,
+        1.3333334042833094
       ],
       "geometry": {
         "type": "plane",
@@ -241,15 +241,17 @@
       "parentId": "9b8e5f48-f8d8-404d-9f1a-48bd307fb18c",
       "components": {},
       "name": "Video",
-      "order": 2.408144970741004,
-      "videoControls": {}
+      "order": 5.261223820507927,
+      "videoControls": {
+        "loop": true
+      }
     },
     "03cb0b6a-8309-4fef-ae1a-aa291086383d": {
       "id": "03cb0b6a-8309-4fef-ae1a-aa291086383d",
       "position": [
-        -0.8859144181011707,
-        0.2425730325367075,
-        0
+        -1,
+        0.4,
+        -0.5
       ],
       "rotation": [
         0,
@@ -357,9 +359,9 @@
     "09c3036f-1433-48d4-bb90-b5a708aa1b19": {
       "id": "09c3036f-1433-48d4-bb90-b5a708aa1b19",
       "position": [
-        -0.31231608332018207,
-        0.23189698144064577,
-        0
+        -1.6,
+        0.4,
+        -0.5
       ],
       "rotation": [
         0,
@@ -454,6 +456,116 @@
         "width": 50,
         "height": 14,
         "text": "Instagram",
+        "color": "#000000",
+        "fontSize": 10,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Roboto"
+        }
+      },
+      "order": 1.4457592294025894
+    },
+    "312271ab-23f2-46b4-87d4-196a3b264021": {
+      "id": "312271ab-23f2-46b4-87d4-196a3b264021",
+      "position": [
+        -0.4,
+        0.4,
+        -0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ffffff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "ButtonWeb",
+      "order": 9.621502064442621
+    },
+    "295da525-ae7f-4de9-b411-133b4996c385": {
+      "id": "295da525-ae7f-4de9-b411-133b4996c385",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "312271ab-23f2-46b4-87d4-196a3b264021",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/iconweb.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.4656320254885931
+    },
+    "df6e7af9-4853-4ca5-9f11-4532b5e471cf": {
+      "id": "df6e7af9-4853-4ca5-9f11-4532b5e471cf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "312271ab-23f2-46b4-87d4-196a3b264021",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Portafolio",
         "color": "#000000",
         "fontSize": 10,
         "verticalTextAlign": "center",
