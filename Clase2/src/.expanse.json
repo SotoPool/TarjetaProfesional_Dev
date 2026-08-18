@@ -44,20 +44,20 @@
       "material": null,
       "name": "Camera",
       "position": [
-        0,
+        -0.4809365845376701,
         1.066933044370628,
         1.7344023975653875
       ],
       "rotation": [
-        -0.007555943960184424,
-        0.9917385675900213,
-        -0.09900952418689304,
-        -0.08120736041547195
+        0.0006438058635930647,
+        0.9950573494239772,
+        -0.09929533565507705,
+        0.0009450864958136107
       ],
       "scale": [
-        1.0000000000000009,
-        0.9999999999999997,
-        0.9999999999999999
+        1.000000000000001,
+        0.9999999999999994,
+        0.9999999999999998
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -250,14 +250,14 @@
       "id": "03cb0b6a-8309-4fef-ae1a-aa291086383d",
       "position": [
         -1,
-        0.4,
-        -0.5
+        0.5000000000000001,
+        0.3999999999999999
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         0.5,
@@ -266,8 +266,16 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "parentId": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
+      "components": {
+        "06fbc7f5-e0c8-4e81-8a13-145b284cde48": {
+          "id": "06fbc7f5-e0c8-4e81-8a13-145b284cde48",
+          "name": "Abrir Link",
+          "parameters": {
+            "url": "https://x.com/manutozaki_"
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
@@ -282,7 +290,7 @@
         "justifyContent": "center"
       },
       "name": "ButtonTwitter",
-      "order": 6.697670911967109
+      "order": 4.693271603833833
     },
     "7b9689af-bf38-4b27-b4e1-a5bd793f3391": {
       "id": "7b9689af-bf38-4b27-b4e1-a5bd793f3391",
@@ -360,14 +368,14 @@
       "id": "09c3036f-1433-48d4-bb90-b5a708aa1b19",
       "position": [
         -1.6,
-        0.4,
-        -0.5
+        0.5000000000000001,
+        0.3999999999999999
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         0.5,
@@ -376,8 +384,16 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "parentId": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
+      "components": {
+        "78f62547-3209-4068-847b-7fa924f73034": {
+          "id": "78f62547-3209-4068-847b-7fa924f73034",
+          "name": "Abrir Link",
+          "parameters": {
+            "url": "https://www.instagram.com/manu.pard0"
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
@@ -392,7 +408,7 @@
         "justifyContent": "center"
       },
       "name": "ButtonInstagram",
-      "order": 7.978527199881444
+      "order": 4.723786955779959
     },
     "1dcf860f-1585-4ee5-9373-ed6c26155aaf": {
       "id": "1dcf860f-1585-4ee5-9373-ed6c26155aaf",
@@ -470,14 +486,14 @@
       "id": "312271ab-23f2-46b4-87d4-196a3b264021",
       "position": [
         -0.4,
-        0.4,
-        -0.5
+        0.5000000000000001,
+        0.3999999999999999
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         0.5,
@@ -486,8 +502,16 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "parentId": "5e0260fa-8329-4bd1-be29-bbe7ed3422de",
+      "components": {
+        "9d118971-f2e2-4012-9697-e00da61f88d0": {
+          "id": "9d118971-f2e2-4012-9697-e00da61f88d0",
+          "name": "Abrir Link",
+          "parameters": {
+            "url": "https://manuelasoto-portfolio.netlify.app/"
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
@@ -502,7 +526,7 @@
         "justifyContent": "center"
       },
       "name": "ButtonWeb",
-      "order": 9.621502064442621
+      "order": 4.7543023077260855
     },
     "295da525-ae7f-4de9-b411-133b4996c385": {
       "id": "295da525-ae7f-4de9-b411-133b4996c385",
