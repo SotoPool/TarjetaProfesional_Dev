@@ -1,7 +1,7 @@
 const onxrloaded = () => {
   XR8.XrController.configure({
     imageTargetData: [
-      require('../image-targets/tejesuenos.json')
+      require('../image-targets/Multiverso.json')
     ],
   })
 }

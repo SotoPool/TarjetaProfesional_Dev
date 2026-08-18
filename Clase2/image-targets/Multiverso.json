@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 158,
+    "left": 0,
+    "width": 723,
+    "height": 964,
+    "isRotated": true,
+    "originalWidth": 723,
+    "originalHeight": 1280
+  },
+  "imagePath": "image-targets/Multiverso_luminance.jpg",
+  "metadata": null,
+  "name": "Multiverso",
+  "resources": {
+    "originalImage": "Multiverso_original.jpg",
+    "croppedImage": "Multiverso_cropped.jpg",
+    "thumbnailImage": "Multiverso_thumbnail.jpg",
+    "luminanceImage": "Multiverso_luminance.jpg"
+  },
+  "created": 1787069712238,
+  "updated": 1787069712238
+}
